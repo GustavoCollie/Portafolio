@@ -1,0 +1,336 @@
+{
+  "profile": {
+    "fullName": "Tu Nombre Completo",
+    "title": "Full Stack Developer",
+    "subtitle": "Business Intelligence Analyst",
+    "email": "tu.email@ejemplo.com",
+    "phone": "+1 234 567 8900",
+    "location": "Ciudad, País",
+    "summary": "Profesional híbrido con experiencia dual en desarrollo de software full stack y análisis de inteligencia de negocios. Combino habilidades técnicas avanzadas en React, Node.js y Python con experiencia en estrategia de negocios, visualización de datos y toma de decisiones basada en KPIs. Apasionado por crear soluciones tecnológicas que generen impacto empresarial medible.",
+    "avatarUrl": "/assets/images/avatar.jpg",
+    "education": [
+      {
+        "institution": "Universidad Ejemplo",
+        "degree": "Licenciatura",
+        "field": "Ingeniería en Sistemas Computacionales",
+        "startYear": 2015,
+        "endYear": 2019,
+        "gpa": "9.2/10"
+      },
+      {
+        "institution": "Business School",
+        "degree": "Maestría",
+        "field": "Business Analytics",
+        "startYear": 2020,
+        "endYear": 2022
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Solutions Architect Associate",
+        "issuer": "Amazon Web Services",
+        "issueDate": "2023-06-15",
+        "credentialId": "ABC123XYZ"
+      },
+      {
+        "name": "Microsoft Power BI Data Analyst",
+        "issuer": "Microsoft",
+        "issueDate": "2023-03-20",
+        "credentialId": "PBI-456"
+      },
+      {
+        "name": "Google Data Analytics Professional",
+        "issuer": "Google",
+        "issueDate": "2022-11-10"
+      }
+    ],
+    "languages": [
+      { "name": "Español", "level": "Nativo" },
+      { "name": "Inglés", "level": "Avanzado (C1)" },
+      { "name": "Portugués", "level": "Intermedio (B1)" }
+    ],
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/tuusuario",
+      "github": "https://github.com/tuusuario",
+      "twitter": "https://twitter.com/tuusuario",
+      "website": "https://tuportafolio.com"
+    }
+  },
+  "experiences": [
+    {
+      "id": "exp-1",
+      "company": "Tech Company Inc.",
+      "role": "Senior Full Stack Developer",
+      "description": "Liderazgo técnico en el desarrollo de aplicaciones web empresariales",
+      "type": "hybrid",
+      "startDate": "2022-01-01",
+      "endDate": null,
+      "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS"],
+      "achievements": [
+        "Arquitectura e implementación de microservicios que procesan +1M de transacciones diarias",
+        "Reducción del 40% en tiempo de carga mediante optimización de queries y caching",
+        "Mentoría a equipo de 5 desarrolladores junior implementando code reviews y pair programming"
+      ],
+      "kpis": [
+        { "label": "Transacciones/día", "value": "1M+", "improvement": "+150%" },
+        { "label": "Tiempo de carga", "value": "1.2s", "improvement": "-40%" },
+        { "label": "Cobertura de tests", "value": "85%", "improvement": "+35%" }
+      ]
+    },
+    {
+      "id": "exp-2",
+      "company": "Analytics Corp",
+      "role": "Business Intelligence Analyst",
+      "description": "Análisis de datos y desarrollo de dashboards ejecutivos",
+      "type": "business",
+      "startDate": "2020-03-01",
+      "endDate": "2021-12-31",
+      "technologies": ["Power BI", "SQL", "Python", "Tableau", "Excel"],
+      "achievements": [
+        "Diseño e implementación de dashboard ejecutivo utilizado por C-suite para decisiones estratégicas",
+        "Automatización de reportes que ahorraron 20 horas semanales al equipo de finanzas",
+        "Identificación de oportunidades de negocio que generaron $500K en revenue adicional"
+      ],
+      "kpis": [
+        { "label": "ROI Proyectos", "value": "$500K", "improvement": "+25%" },
+        { "label": "Horas ahorradas", "value": "20/semana" },
+        { "label": "Usuarios dashboard", "value": "150+" }
+      ]
+    },
+    {
+      "id": "exp-3",
+      "company": "StartupXYZ",
+      "role": "Full Stack Developer",
+      "description": "Desarrollo de MVP y escalamiento de producto",
+      "type": "tech",
+      "startDate": "2019-01-01",
+      "endDate": "2020-02-28",
+      "technologies": ["Vue.js", "Python", "Django", "MongoDB", "Docker"],
+      "achievements": [
+        "Desarrollo de MVP en 3 meses que permitió levantar $2M en Serie A",
+        "Implementación de arquitectura serverless reduciendo costos de infraestructura en 60%",
+        "Integración de pasarela de pagos procesando +$100K mensuales"
+      ],
+      "kpis": [
+        { "label": "Funding levantado", "value": "$2M" },
+        { "label": "Reducción costos", "value": "60%" },
+        { "label": "Pagos procesados", "value": "$100K/mes" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "E-Commerce Analytics Dashboard",
+      "description": "Dashboard interactivo para análisis de ventas, comportamiento de usuarios y predicción de demanda usando Machine Learning",
+      "category": "bi",
+      "technologies": ["React", "D3.js", "Python", "TensorFlow", "PostgreSQL"],
+      "repositoryUrl": "https://github.com/tuusuario/ecommerce-analytics",
+      "liveUrl": "https://demo-analytics.tuportafolio.com",
+      "imageUrl": "/assets/images/projects/analytics-dashboard.png",
+      "featured": true,
+      "metrics": [
+        { "label": "Precisión predicción", "value": "94%" },
+        { "label": "Usuarios activos", "value": "500+" }
+      ],
+      "startDate": "2023-01-01",
+      "endDate": "2023-06-01"
+    },
+    {
+      "id": "proj-2",
+      "title": "Microservices Platform",
+      "description": "Plataforma de microservicios con API Gateway, service mesh y observabilidad completa",
+      "category": "backend",
+      "technologies": ["Node.js", "Kubernetes", "Istio", "Prometheus", "Grafana"],
+      "repositoryUrl": "https://github.com/tuusuario/microservices-platform",
+      "imageUrl": "/assets/images/projects/microservices.png",
+      "featured": true,
+      "metrics": [
+        { "label": "Uptime", "value": "99.9%" },
+        { "label": "Latencia p99", "value": "<100ms" }
+      ],
+      "startDate": "2022-06-01",
+      "endDate": "2022-12-01"
+    },
+    {
+      "id": "proj-3",
+      "title": "Real-time Collaboration App",
+      "description": "Aplicación de colaboración en tiempo real con WebSockets, CRDT y sincronización offline-first",
+      "category": "fullstack",
+      "technologies": ["Next.js", "Socket.io", "Redis", "MongoDB", "PWA"],
+      "repositoryUrl": "https://github.com/tuusuario/collab-app",
+      "liveUrl": "https://collab.tuportafolio.com",
+      "imageUrl": "/assets/images/projects/collab-app.png",
+      "featured": true,
+      "metrics": [
+        { "label": "Usuarios concurrentes", "value": "1000+" },
+        { "label": "Sync latency", "value": "<50ms" }
+      ],
+      "startDate": "2023-03-01"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "React",
+      "category": "frontend",
+      "proficiency": "expert",
+      "yearsOfExperience": 5,
+      "icon": "react",
+      "featured": true
+    },
+    {
+      "id": "skill-2",
+      "name": "TypeScript",
+      "category": "frontend",
+      "proficiency": "expert",
+      "yearsOfExperience": 4,
+      "icon": "typescript",
+      "featured": true
+    },
+    {
+      "id": "skill-3",
+      "name": "Next.js",
+      "category": "frontend",
+      "proficiency": "advanced",
+      "yearsOfExperience": 3,
+      "icon": "nextjs",
+      "featured": true
+    },
+    {
+      "id": "skill-4",
+      "name": "Node.js",
+      "category": "backend",
+      "proficiency": "expert",
+      "yearsOfExperience": 5,
+      "icon": "nodejs",
+      "featured": true
+    },
+    {
+      "id": "skill-5",
+      "name": "Python",
+      "category": "backend",
+      "proficiency": "advanced",
+      "yearsOfExperience": 4,
+      "icon": "python",
+      "featured": true
+    },
+    {
+      "id": "skill-6",
+      "name": "PostgreSQL",
+      "category": "database",
+      "proficiency": "advanced",
+      "yearsOfExperience": 4,
+      "icon": "postgresql",
+      "featured": true
+    },
+    {
+      "id": "skill-7",
+      "name": "MongoDB",
+      "category": "database",
+      "proficiency": "advanced",
+      "yearsOfExperience": 3,
+      "icon": "mongodb",
+      "featured": false
+    },
+    {
+      "id": "skill-8",
+      "name": "AWS",
+      "category": "devops",
+      "proficiency": "advanced",
+      "yearsOfExperience": 3,
+      "icon": "aws",
+      "featured": true
+    },
+    {
+      "id": "skill-9",
+      "name": "Docker",
+      "category": "devops",
+      "proficiency": "advanced",
+      "yearsOfExperience": 4,
+      "icon": "docker",
+      "featured": true
+    },
+    {
+      "id": "skill-10",
+      "name": "Kubernetes",
+      "category": "devops",
+      "proficiency": "intermediate",
+      "yearsOfExperience": 2,
+      "icon": "kubernetes",
+      "featured": false
+    },
+    {
+      "id": "skill-11",
+      "name": "Power BI",
+      "category": "bi-tools",
+      "proficiency": "expert",
+      "yearsOfExperience": 4,
+      "icon": "powerbi",
+      "featured": true
+    },
+    {
+      "id": "skill-12",
+      "name": "Tableau",
+      "category": "bi-tools",
+      "proficiency": "advanced",
+      "yearsOfExperience": 3,
+      "icon": "tableau",
+      "featured": true
+    },
+    {
+      "id": "skill-13",
+      "name": "SQL Avanzado",
+      "category": "data-analysis",
+      "proficiency": "expert",
+      "yearsOfExperience": 5,
+      "icon": "sql",
+      "featured": true
+    },
+    {
+      "id": "skill-14",
+      "name": "Data Modeling",
+      "category": "data-analysis",
+      "proficiency": "advanced",
+      "yearsOfExperience": 3,
+      "icon": "datamodel",
+      "featured": false
+    },
+    {
+      "id": "skill-15",
+      "name": "Strategic Planning",
+      "category": "business",
+      "proficiency": "advanced",
+      "yearsOfExperience": 3,
+      "icon": "strategy",
+      "featured": true
+    },
+    {
+      "id": "skill-16",
+      "name": "KPI Development",
+      "category": "business",
+      "proficiency": "expert",
+      "yearsOfExperience": 4,
+      "icon": "kpi",
+      "featured": true
+    },
+    {
+      "id": "skill-17",
+      "name": "Stakeholder Management",
+      "category": "soft-skills",
+      "proficiency": "advanced",
+      "yearsOfExperience": 4,
+      "icon": "stakeholder",
+      "featured": false
+    },
+    {
+      "id": "skill-18",
+      "name": "Technical Leadership",
+      "category": "soft-skills",
+      "proficiency": "advanced",
+      "yearsOfExperience": 3,
+      "icon": "leadership",
+      "featured": true
+    }
+  ]
+}
