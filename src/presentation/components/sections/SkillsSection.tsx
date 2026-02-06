@@ -148,7 +148,7 @@ const CategorySection: React.FC<{ category: SkillCategory; skills: SkillData[]; 
     <div
       ref={ref}
       className={`
-        bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-6 transition-all duration-700
+        bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-6 overflow-hidden transition-all duration-700
         ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}
       `}
       style={{ transitionDelay: `${index * 100}ms` }}
