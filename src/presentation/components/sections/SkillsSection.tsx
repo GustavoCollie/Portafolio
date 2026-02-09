@@ -99,9 +99,9 @@ const SkillPill: React.FC<{ skill: SkillData; delay: number; isVisible: boolean 
   return (
     <div
       className={`
-        group flex items-center gap-3 bg-white dark:bg-slate-800 rounded-xl px-4 py-3
+        group flex items-center gap-2 bg-white dark:bg-slate-800 rounded-xl px-3 py-2.5
         border border-slate-200 dark:border-slate-700 hover:border-indigo-300 dark:hover:border-indigo-600
-        hover:shadow-md transition-all duration-500
+        hover:shadow-md transition-all duration-500 min-w-0 overflow-hidden
         ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-4'}
       `}
       style={{ transitionDelay: `${delay}ms` }}
@@ -148,7 +148,7 @@ const CategorySection: React.FC<{ category: SkillCategory; skills: SkillData[]; 
     <div
       ref={ref}
       className={`
-        bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-6 overflow-hidden transition-all duration-700
+        bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4 overflow-hidden transition-all duration-700
         ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}
       `}
       style={{ transitionDelay: `${index * 100}ms` }}
