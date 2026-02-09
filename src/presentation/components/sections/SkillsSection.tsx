@@ -93,12 +93,17 @@ function getSkillIcon(iconName: string): string {
   return icons[iconName] ?? '💡';
 }
 
-const SkillPill: React.FC<{ skill: SkillData; delay: number; isVisible: boolean }> = ({ skill, delay, isVisible }) => {
-  const proficiency = proficiencyConfig[skill.proficiency];
-  const formatExperience = (years: number) => {
-    if (years < 1) return `${Math.round(years * 12)}m`;
-    return `${years}a`;
-  };
+  const SkillPill: React.FC<{ skill: SkillData; delay: number; isVisible: boolean }> = ({ skill, delay, isVisible }) => {
+    const proficiency = proficiencyConfig[skill.proficiency];
+    const formatExperience = (years: number, category: SkillCategory) => {
+      // Category-specific overrides
+      if (category === 'business') return '3a';
+      if (category === 'soft-skills') return '2a';
+      if (category === 'data-analysis') return '3a';
+
+      if (years < 1) return `${Math.round(years * 12)}m`;
+      return `${years}a`;
+    };
 
   return (
     <div
@@ -133,7 +138,7 @@ const SkillPill: React.FC<{ skill: SkillData; delay: number; isVisible: boolean 
               }}
             />
           </div>
-          <span className="text-xs text-slate-400 flex-shrink-0 w-8">{formatExperience(skill.yearsOfExperience)}</span>
+          <span className="text-xs text-slate-400 flex-shrink-0 w-8">{formatExperience(skill.yearsOfExperience, skill.category)}</span>
         </div>
       </div>
     </div>

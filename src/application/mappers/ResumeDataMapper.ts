@@ -87,12 +87,16 @@ export class ResumeDataMapper {
         if (!acc[category]) {
           acc[category] = [];
         }
-        const formatExperience = (years: number) => {
+        const formatExperience = (years: number, cat: Skill['category']) => {
+          if (cat === 'business') return '3a';
+          if (cat === 'soft-skills') return '2a';
+          if (cat === 'data-analysis') return '3a';
+
           if (years < 1) return `${Math.round(years * 12)}m`;
           return `${years}a`;
         };
 
-        acc[category].push(`${skill.name} (${formatExperience(skill.yearsOfExperience)})`);
+        acc[category].push(`${skill.name} (${formatExperience(skill.yearsOfExperience, skill.category)})`);
         return acc;
       },
       {} as Record<string, string[]>
