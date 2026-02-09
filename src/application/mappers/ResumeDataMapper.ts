@@ -87,7 +87,12 @@ export class ResumeDataMapper {
         if (!acc[category]) {
           acc[category] = [];
         }
-        acc[category].push(skill.name);
+        const formatExperience = (years: number) => {
+          if (years < 1) return `${Math.round(years * 12)}m`;
+          return `${years}a`;
+        };
+
+        acc[category].push(`${skill.name} (${formatExperience(skill.yearsOfExperience)})`);
         return acc;
       },
       {} as Record<string, string[]>

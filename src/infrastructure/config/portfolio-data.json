@@ -69,7 +69,8 @@
       "achievements": [
         "Arquitectura e implementación de microservicios que procesan +1M de transacciones diarias",
         "Reducción del 40% en tiempo de carga mediante optimización de queries y caching",
-        "Mentoría a equipo de 5 desarrolladores junior implementando code reviews y pair programming"
+        "Mentoría a equipo de 5 desarrolladores junior implementando code reviews y pair programming",
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
       ],
       "kpis": [
         { "label": "Transacciones/día", "value": "1M+", "improvement": "+150%" },
@@ -89,7 +90,8 @@
       "achievements": [
         "Diseño e implementación de dashboard ejecutivo utilizado por C-suite para decisiones estratégicas",
         "Automatización de reportes que ahorraron 20 horas semanales al equipo de finanzas",
-        "Identificación de oportunidades de negocio que generaron $500K en revenue adicional"
+        "Identificación de oportunidades de negocio que generaron $500K en revenue adicional",
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
       ],
       "kpis": [
         { "label": "ROI Proyectos", "value": "$500K", "improvement": "+25%" },
@@ -109,7 +111,8 @@
       "achievements": [
         "Desarrollo de MVP en 3 meses que permitió levantar $2M en Serie A",
         "Implementación de arquitectura serverless reduciendo costos de infraestructura en 60%",
-        "Integración de pasarela de pagos procesando +$100K mensuales"
+        "Integración de pasarela de pagos procesando +$100K mensuales",
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
       ],
       "kpis": [
         { "label": "Funding levantado", "value": "$2M" },
@@ -175,7 +178,7 @@
       "name": "React",
       "category": "frontend",
       "proficiency": "expert",
-      "yearsOfExperience": 5,
+      "yearsOfExperience": 1,
       "icon": "react",
       "featured": true
     },
@@ -184,7 +187,7 @@
       "name": "TypeScript",
       "category": "frontend",
       "proficiency": "expert",
-      "yearsOfExperience": 4,
+      "yearsOfExperience": 1,
       "icon": "typescript",
       "featured": true
     },
@@ -193,7 +196,7 @@
       "name": "Next.js",
       "category": "frontend",
       "proficiency": "advanced",
-      "yearsOfExperience": 3,
+      "yearsOfExperience": 1,
       "icon": "nextjs",
       "featured": true
     },
@@ -202,7 +205,7 @@
       "name": "Node.js",
       "category": "backend",
       "proficiency": "expert",
-      "yearsOfExperience": 5,
+      "yearsOfExperience": 1,
       "icon": "nodejs",
       "featured": true
     },
@@ -211,7 +214,7 @@
       "name": "Python",
       "category": "backend",
       "proficiency": "advanced",
-      "yearsOfExperience": 4,
+      "yearsOfExperience": 1,
       "icon": "python",
       "featured": true
     },
@@ -220,7 +223,7 @@
       "name": "PostgreSQL",
       "category": "database",
       "proficiency": "advanced",
-      "yearsOfExperience": 4,
+      "yearsOfExperience": 1,
       "icon": "postgresql",
       "featured": true
     },
@@ -229,7 +232,7 @@
       "name": "MongoDB",
       "category": "database",
       "proficiency": "advanced",
-      "yearsOfExperience": 3,
+      "yearsOfExperience": 1,
       "icon": "mongodb",
       "featured": false
     },
@@ -238,7 +241,7 @@
       "name": "AWS",
       "category": "devops",
       "proficiency": "advanced",
-      "yearsOfExperience": 3,
+      "yearsOfExperience": 1,
       "icon": "aws",
       "featured": true
     },
@@ -247,7 +250,7 @@
       "name": "Docker",
       "category": "devops",
       "proficiency": "advanced",
-      "yearsOfExperience": 4,
+      "yearsOfExperience": 1,
       "icon": "docker",
       "featured": true
     },
@@ -256,7 +259,7 @@
       "name": "Kubernetes",
       "category": "devops",
       "proficiency": "intermediate",
-      "yearsOfExperience": 2,
+      "yearsOfExperience": 1,
       "icon": "kubernetes",
       "featured": false
     },
@@ -265,7 +268,7 @@
       "name": "Power BI",
       "category": "bi-tools",
       "proficiency": "expert",
-      "yearsOfExperience": 4,
+      "yearsOfExperience": 1,
       "icon": "powerbi",
       "featured": true
     },
@@ -274,7 +277,7 @@
       "name": "Tableau",
       "category": "bi-tools",
       "proficiency": "advanced",
-      "yearsOfExperience": 3,
+      "yearsOfExperience": 1,
       "icon": "tableau",
       "featured": true
     },
@@ -283,7 +286,7 @@
       "name": "SQL Avanzado",
       "category": "data-analysis",
       "proficiency": "expert",
-      "yearsOfExperience": 5,
+      "yearsOfExperience": 1,
       "icon": "sql",
       "featured": true
     },
@@ -292,7 +295,7 @@
       "name": "Data Modeling",
       "category": "data-analysis",
       "proficiency": "advanced",
-      "yearsOfExperience": 3,
+      "yearsOfExperience": 1,
       "icon": "datamodel",
       "featured": false
     },
@@ -301,7 +304,7 @@
       "name": "Strategic Planning",
       "category": "business",
       "proficiency": "advanced",
-      "yearsOfExperience": 3,
+      "yearsOfExperience": 1,
       "icon": "strategy",
       "featured": true
     },
@@ -310,7 +313,7 @@
       "name": "KPI Development",
       "category": "business",
       "proficiency": "expert",
-      "yearsOfExperience": 4,
+      "yearsOfExperience": 1,
       "icon": "kpi",
       "featured": true
     },
@@ -319,7 +322,7 @@
       "name": "Stakeholder Management",
       "category": "soft-skills",
       "proficiency": "advanced",
-      "yearsOfExperience": 4,
+      "yearsOfExperience": 1,
       "icon": "stakeholder",
       "featured": false
     },
@@ -328,7 +331,7 @@
       "name": "Technical Leadership",
       "category": "soft-skills",
       "proficiency": "advanced",
-      "yearsOfExperience": 3,
+      "yearsOfExperience": 1,
       "icon": "leadership",
       "featured": true
     }

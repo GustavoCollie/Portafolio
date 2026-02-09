@@ -95,6 +95,10 @@ function getSkillIcon(iconName: string): string {
 
 const SkillPill: React.FC<{ skill: SkillData; delay: number; isVisible: boolean }> = ({ skill, delay, isVisible }) => {
   const proficiency = proficiencyConfig[skill.proficiency];
+  const formatExperience = (years: number) => {
+    if (years < 1) return `${Math.round(years * 12)}m`;
+    return `${years}a`;
+  };
 
   return (
     <div
@@ -118,7 +122,7 @@ const SkillPill: React.FC<{ skill: SkillData; delay: number; isVisible: boolean 
             <span className="text-amber-500 text-xs">★</span>
           )}
         </div>
-        <div className="flex items-center gap-2 mt-1">
+          <div className="flex items-center gap-2 mt-1">
           <div className="flex-1 h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
             <div
               className={`h-full bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full transition-all duration-1000 ${isVisible ? '' : 'w-0'
@@ -129,7 +133,7 @@ const SkillPill: React.FC<{ skill: SkillData; delay: number; isVisible: boolean 
               }}
             />
           </div>
-          <span className="text-xs text-slate-400 flex-shrink-0 w-8">{skill.yearsOfExperience}a</span>
+          <span className="text-xs text-slate-400 flex-shrink-0 w-8">{formatExperience(skill.yearsOfExperience)}</span>
         </div>
       </div>
     </div>
