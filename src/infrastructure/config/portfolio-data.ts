@@ -220,7 +220,7 @@ export const portfolioData = {
       name: "React.js & Next.js",
       category: "frontend",
       proficiency: "expert",
-      yearsOfExperience: 5,
+      yearsOfExperience: 1,
       icon: "layout",
       featured: true
     },
@@ -229,7 +229,7 @@ export const portfolioData = {
       name: "TypeScript",
       category: "frontend",
       proficiency: "advanced",
-      yearsOfExperience: 4,
+      yearsOfExperience: 1,
       icon: "code",
       featured: true
     },
@@ -238,7 +238,7 @@ export const portfolioData = {
       name: "JavaScript (ES6+)",
       category: "frontend",
       proficiency: "expert",
-      yearsOfExperience: 6,
+      yearsOfExperience: 1,
       icon: "javascript",
       featured: false
     },
@@ -247,7 +247,7 @@ export const portfolioData = {
       name: "Tailwind CSS",
       category: "frontend",
       proficiency: "expert",
-      yearsOfExperience: 4,
+      yearsOfExperience: 1,
       icon: "palette",
       featured: true
     },
@@ -256,7 +256,7 @@ export const portfolioData = {
       name: "HTML5 & CSS3",
       category: "frontend",
       proficiency: "expert",
-      yearsOfExperience: 6,
+      yearsOfExperience: 1,
       icon: "globe",
       featured: false
     },
@@ -265,7 +265,7 @@ export const portfolioData = {
       name: "FastAPI & Python",
       category: "backend",
       proficiency: "advanced",
-      yearsOfExperience: 4,
+      yearsOfExperience: 2,
       icon: "python",
       featured: true
     },
@@ -274,7 +274,7 @@ export const portfolioData = {
       name: "Node.js & Express",
       category: "backend",
       proficiency: "advanced",
-      yearsOfExperience: 4,
+      yearsOfExperience: 2,
       icon: "nodejs",
       featured: false
     },
@@ -283,7 +283,7 @@ export const portfolioData = {
       name: "APIs REST & GraphQL",
       category: "backend",
       proficiency: "expert",
-      yearsOfExperience: 5,
+      yearsOfExperience: 2,
       icon: "server",
       featured: true
     },
@@ -292,7 +292,7 @@ export const portfolioData = {
       name: "Security (JWT/OWASP)",
       category: "backend",
       proficiency: "advanced",
-      yearsOfExperience: 3,
+      yearsOfExperience: 1,
       icon: "shield",
       featured: false
     },
@@ -338,7 +338,7 @@ export const portfolioData = {
       name: "SOLID Principles",
       category: "backend",
       proficiency: "advanced",
-      yearsOfExperience: 4,
+      yearsOfExperience: 1,
       icon: "solid",
       featured: true
     },
@@ -347,7 +347,7 @@ export const portfolioData = {
       name: "Hexagonal Architecture",
       category: "backend",
       proficiency: "advanced",
-      yearsOfExperience: 3,
+      yearsOfExperience: 1,
       icon: "hexagonal",
       featured: true
     },
