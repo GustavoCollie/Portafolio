@@ -67,10 +67,10 @@
       "endDate": null,
       "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS"],
       "achievements": [
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones",
         "Arquitectura e implementación de microservicios que procesan +1M de transacciones diarias",
         "Reducción del 40% en tiempo de carga mediante optimización de queries y caching",
-        "Mentoría a equipo de 5 desarrolladores junior implementando code reviews y pair programming",
-        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
+        "Mentoría a equipo de 5 desarrolladores junior implementando code reviews y pair programming"
       ],
       "kpis": [
         { "label": "Transacciones/día", "value": "1M+", "improvement": "+150%" },
@@ -88,10 +88,10 @@
       "endDate": "2021-12-31",
       "technologies": ["Power BI", "SQL", "Python", "Tableau", "Excel"],
       "achievements": [
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones",
         "Diseño e implementación de dashboard ejecutivo utilizado por C-suite para decisiones estratégicas",
         "Automatización de reportes que ahorraron 20 horas semanales al equipo de finanzas",
-        "Identificación de oportunidades de negocio que generaron $500K en revenue adicional",
-        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
+        "Identificación de oportunidades de negocio que generaron $500K en revenue adicional"
       ],
       "kpis": [
         { "label": "ROI Proyectos", "value": "$500K", "improvement": "+25%" },
@@ -109,10 +109,10 @@
       "endDate": "2020-02-28",
       "technologies": ["Vue.js", "Python", "Django", "MongoDB", "Docker"],
       "achievements": [
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones",
         "Desarrollo de MVP en 3 meses que permitió levantar $2M en Serie A",
         "Implementación de arquitectura serverless reduciendo costos de infraestructura en 60%",
-        "Integración de pasarela de pagos procesando +$100K mensuales",
-        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
+        "Integración de pasarela de pagos procesando +$100K mensuales"
       ],
       "kpis": [
         { "label": "Funding levantado", "value": "$2M" },

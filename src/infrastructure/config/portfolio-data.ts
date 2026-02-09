@@ -69,11 +69,11 @@ export const portfolioData = {
       endDate: "2025-08-31",
       technologies: ["React", "Node.js", "PostgreSQL", "AWS", "IA", "Excel Avanzado"],
       achievements: [
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones",
         "Lideré el desarrollo Full Stack de 'Collie App', un ERP agrícola de 7 módulos (Comercial, Producción, Logística, Finanzas, RRHH, Calidad)",
         "Dirigí la estrategia comercial de exportaciones de palta Hass a China, Japón y Canadá",
         "Implementé automatización de análisis de mercado con IA e ingeniería de prompts",
-        "Desarrollé modelos financieros para control de rentabilidad por contenedor en tiempo real",
-        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
+        "Desarrollé modelos financieros para control de rentabilidad por contenedor en tiempo real"
       ],
       kpis: [
         { label: "ERP", value: "7 Módulos", improvement: "100% In-house" },
@@ -90,11 +90,11 @@ export const portfolioData = {
       endDate: "2024-11-30",
       technologies: ["Finanzas", "Logística", "Market Analysis", "Incoterms"],
       achievements: [
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones",
         "Elaboré proyecciones financieras y análisis de rentabilidad por mercado y producto",
         "Optimicé el flujo de caja y reduje costos logísticos mediante nuevos procesos financieros",
         "Coordiné exportaciones marítimas y aéreas bajo Incoterms FOB y CIF",
-        "Planifiqué importaciones de insumos optimizando precios y tiempos de entrega",
-        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
+        "Planifiqué importaciones de insumos optimizando precios y tiempos de entrega"
       ],
       kpis: [
         { label: "Costos logísticos", value: "Reducción", improvement: "Optimizado" },
@@ -112,11 +112,11 @@ export const portfolioData = {
       endDate: "2023-07-31",
       technologies: ["Sourcing", "Logistics", "Negotiation", "Customs"],
       achievements: [
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones",
         "Control de costos logísticos y aduaneros para optimizar la cadena de suministro",
         "Negociación con proveedores logísticos para mejorar tiempos y tarifas de flete",
         "Gestión integral de embarques marítimos y aéreos asegurando requisitos fitosanitarios",
-        "Planificación de importación de insumos agrícolas con optimización de tiempos",
-        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
+        "Planificación de importación de insumos agrícolas con optimización de tiempos"
       ],
       kpis: [
         { label: "Tarifas flete", value: "Competitivas", improvement: "-15%" },
@@ -134,11 +134,11 @@ export const portfolioData = {
       endDate: "2022-08-31",
       technologies: ["DRAWBACK", "VUCE", "Export Docs", "Tax Recovery"],
       achievements: [
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones",
         "Administré el régimen DRAWBACK logrando la recuperación eficiente de impuestos",
         "Supervisé protocolos de embarque y certificados de origen vía plataforma VUCE",
         "Coordiné logística de exportaciones bajo Incoterms FOB y CIF",
-        "Ejecuté importaciones de materiales optimizando la cadena de valor",
-        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
+        "Ejecuté importaciones de materiales optimizando la cadena de valor"
       ],
       kpis: [
         { label: "DRAWBACK", value: "Recuperado", improvement: "Eficiente" },
@@ -156,10 +156,10 @@ export const portfolioData = {
       endDate: "2021-02-28",
       technologies: ["NISIRA", "Production Control", "Costs", "Inventory"],
       achievements: [
+        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones",
         "Control de producción y costos en la exportación de uva fresca",
         "Manejo del sistema ERP NISIRA para control de inventarios y procesos productivos",
-        "Seguimiento de KPIS de producción para asegurar estándares de exportación",
-        "Utilicé tecnologías como Python para la automatización, visualización y modelamiento de datos para la toma de decisiones"
+        "Seguimiento de KPIS de producción para asegurar estándares de exportación"
       ],
       kpis: [
         { label: "Sistema ERP", value: "NISIRA", improvement: "Control Total" },
@@ -275,7 +275,7 @@ export const portfolioData = {
       name: "Node.js & Express",
       category: "backend",
       proficiency: "advanced",
-      yearsOfExperience: 2,
+      yearsOfExperience: 1,
       icon: "nodejs",
       featured: false
     },
@@ -284,7 +284,7 @@ export const portfolioData = {
       name: "APIs REST & GraphQL",
       category: "backend",
       proficiency: "expert",
-      yearsOfExperience: 2,
+      yearsOfExperience: 1,
       icon: "server",
       featured: true
     },
