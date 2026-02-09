@@ -301,7 +301,7 @@ export const portfolioData = {
       name: "Microservices & Events",
       category: "architecture",
       proficiency: "advanced",
-      yearsOfExperience: 3,
+      yearsOfExperience: 1,
       icon: "cpu",
       featured: false
     },
@@ -310,7 +310,7 @@ export const portfolioData = {
       name: "PostgreSQL & SQL",
       category: "database",
       proficiency: "expert",
-      yearsOfExperience: 5,
+      yearsOfExperience: 2,
       icon: "database",
       featured: true
     },
@@ -329,7 +329,7 @@ export const portfolioData = {
       name: "Git & GitHub Actions",
       category: "devops",
       proficiency: "expert",
-      yearsOfExperience: 6,
+      yearsOfExperience: 2,
       icon: "github",
       featured: true
     },
@@ -356,7 +356,7 @@ export const portfolioData = {
       name: "Scrum & Agile",
       category: "soft-skills",
       proficiency: "advanced",
-      yearsOfExperience: 3,
+      yearsOfExperience: 2,
       icon: "scrum",
       featured: true
     },
@@ -366,7 +366,7 @@ export const portfolioData = {
       name: "Liderazgo Técnico",
       category: "soft-skills",
       proficiency: "expert",
-      yearsOfExperience: 4,
+      yearsOfExperience: 2,
       icon: "users",
       featured: true
     },
@@ -375,7 +375,7 @@ export const portfolioData = {
       name: "Resolución de Problemas",
       category: "soft-skills",
       proficiency: "expert",
-      yearsOfExperience: 6,
+      yearsOfExperience: 2,
       icon: "puzzle",
       featured: false
     },
@@ -384,7 +384,7 @@ export const portfolioData = {
       name: "Comercio Exterior",
       category: "business",
       proficiency: "expert",
-      yearsOfExperience: 6,
+      yearsOfExperience: 2,
       icon: "ship",
       featured: true
     },
@@ -393,7 +393,7 @@ export const portfolioData = {
       name: "Planeación Financiera",
       category: "business",
       proficiency: "advanced",
-      yearsOfExperience: 4,
+      yearsOfExperience: 2,
       icon: "calculator",
       featured: true
     },
@@ -411,7 +411,7 @@ export const portfolioData = {
       name: "Sistema ERP NISIRA",
       category: "business",
       proficiency: "advanced",
-      yearsOfExperience: 3,
+      yearsOfExperience: 2,
       icon: "settings",
       featured: true
     },
@@ -420,7 +420,7 @@ export const portfolioData = {
       name: "Power BI & Excel",
       category: "data-analysis",
       proficiency: "expert",
-      yearsOfExperience: 6,
+      yearsOfExperience: 2,
       icon: "bar-chart",
       featured: true
     },
@@ -429,7 +429,7 @@ export const portfolioData = {
       name: "Regímenes Aduaneros (DRAWBACK)",
       category: "business",
       proficiency: "expert",
-      yearsOfExperience: 5,
+      yearsOfExperience: 2,
       icon: "file-text",
       featured: false
     }
