@@ -78,10 +78,6 @@ export const portfolioData = {
         { label: "ERP", value: "7 Módulos", improvement: "100% In-house" },
         { label: "Mercados", value: "3", improvement: "Expansión" }
       ],
-      certificates: [
-        "/assets/images/collie-app.png", // Placeholder
-        "/assets/images/collie-import.png" // Placeholder
-      ]
     },
     {
       id: "exp-2",
