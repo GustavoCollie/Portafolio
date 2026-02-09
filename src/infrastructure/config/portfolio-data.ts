@@ -185,7 +185,7 @@ export const portfolioData = {
     },
     {
       id: "proj-2",
-      title: "Collie Inventario",
+      title: "IcaImporta Almacén",
       description: "Gestor de datos de almacén para control de stock, insumos y trazabilidad de productos.",
       category: "fullstack",
       technologies: ["React", "Firebase", "Real-time DB"],
@@ -196,11 +196,11 @@ export const portfolioData = {
         { label: "Trazabilidad", value: "Total" }
       ],
       startDate: "2025-02-01",
-      link: "https://almacenes-collie-ru26.vercel.app/"
+      link: "https://almacenes-icaimporta.vercel.app/"
     },
     {
       id: "proj-3",
-      title: "Collie Store",
+      title: "IcaImporta Store",
       description: "Plataforma de gestión de importaciones para seguimiento de órdenes, costos y proveedores internacionales.",
       category: "fullstack",
       technologies: ["Next.js", "TypeScript", "Tailwind"],
@@ -211,7 +211,7 @@ export const portfolioData = {
         { label: "Tracking", value: "Live" }
       ],
       startDate: "2025-03-01",
-      link: "https://almacenes-collie-zrms.vercel.app/"
+      link: "https://icaimporta-pe.vercel.app/"
     }
   ],
   skills: [
